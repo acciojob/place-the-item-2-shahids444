@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+
+.holder{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.item:nth-child(3) {
+  order: -2;
+}
+.item:nth-child(1) {
+  order: -1;
+}
+
